@@ -1,0 +1,427 @@
+{
+  "project_info": {
+    "project_number": "999998154064",
+    "firebase_url": "https://posbackend-7b0d0.firebaseio.com",
+    "project_id": "posbackend-7b0d0",
+    "storage_bucket": "posbackend-7b0d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999998154064:android:c326cec492779a7f",
+        "android_client_info": {
+          "package_name": "com.relllo.ble"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999998154064-s53v8036049skqup7fmrd5ot2q1dh7nh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.relllo.ble",
+            "certificate_hash": "c1ae007615ceb1a3b99c9e959268da8e12703874"
+          }
+        },
+        {
+          "client_id": "999998154064-4ove0c5eu7i0piosa3qt9cjd1henmdcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApKCvFcveQtHCXRoXntWaNXzg2giDWzCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999998154064-4ove0c5eu7i0piosa3qt9cjd1henmdcr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "999998154064-5t4jeh8ks2pdfobm1k31gskuf11pg5fr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "relllo.restroClient"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999998154064:android:28b93feb25b9749f",
+        "android_client_info": {
+          "package_name": "com.relllo.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999998154064-jf1otrthl8usemnc9op7lpah786vtpm0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.relllo.com",
+            "certificate_hash": "c1ae007615ceb1a3b99c9e959268da8e12703874"
+          }
+        },
+        {
+          "client_id": "999998154064-4ove0c5eu7i0piosa3qt9cjd1henmdcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApKCvFcveQtHCXRoXntWaNXzg2giDWzCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999998154064-4ove0c5eu7i0piosa3qt9cjd1henmdcr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "999998154064-5t4jeh8ks2pdfobm1k31gskuf11pg5fr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "relllo.restroClient"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999998154064:android:1914457b31627279eab855",
+        "android_client_info": {
+          "package_name": "com.relllo.vendordriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999998154064-4ove0c5eu7i0piosa3qt9cjd1henmdcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApKCvFcveQtHCXRoXntWaNXzg2giDWzCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999998154064-4ove0c5eu7i0piosa3qt9cjd1henmdcr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "999998154064-5t4jeh8ks2pdfobm1k31gskuf11pg5fr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "relllo.restroClient"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999998154064:android:b70a85bb568aa136eab855",
+        "android_client_info": {
+          "package_name": "com.rellovendors.rello_vendor_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999998154064-4ove0c5eu7i0piosa3qt9cjd1henmdcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApKCvFcveQtHCXRoXntWaNXzg2giDWzCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999998154064-4ove0c5eu7i0piosa3qt9cjd1henmdcr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "999998154064-5t4jeh8ks2pdfobm1k31gskuf11pg5fr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "relllo.restroClient"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999998154064:android:49d15920d7ac10fbeab855",
+        "android_client_info": {
+          "package_name": "com.rellovendors.rellovendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999998154064-4ove0c5eu7i0piosa3qt9cjd1henmdcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApKCvFcveQtHCXRoXntWaNXzg2giDWzCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999998154064-4ove0c5eu7i0piosa3qt9cjd1henmdcr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "999998154064-5t4jeh8ks2pdfobm1k31gskuf11pg5fr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "relllo.restroClient"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999998154064:android:f22c47f1a4cfa4d0",
+        "android_client_info": {
+          "package_name": "com.vendors.pos.vendors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999998154064-916i9p505cj76mnf32l5q6ec0mkocvoo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vendors.pos.vendors",
+            "certificate_hash": "cec284714ee126488c3284e6c6cdd7f9fc5d4913"
+          }
+        },
+        {
+          "client_id": "999998154064-4ove0c5eu7i0piosa3qt9cjd1henmdcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApKCvFcveQtHCXRoXntWaNXzg2giDWzCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999998154064-4ove0c5eu7i0piosa3qt9cjd1henmdcr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "999998154064-5t4jeh8ks2pdfobm1k31gskuf11pg5fr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "relllo.restroClient"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999998154064:android:b89e764d780492a9",
+        "android_client_info": {
+          "package_name": "pos.com.pos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999998154064-a8np7fa92oarc1vh42r2d8ik6gbadoac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pos.com.pos",
+            "certificate_hash": "c1ae007615ceb1a3b99c9e959268da8e12703874"
+          }
+        },
+        {
+          "client_id": "999998154064-4drud41bt4a0rajhro15s28oshev41qo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pos.com.pos",
+            "certificate_hash": "e2ec4caa981a445035b0f308d3b5e4c90065b007"
+          }
+        },
+        {
+          "client_id": "999998154064-5m6ue2o6652gbgrskf5nsn3qp4bvl3m2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pos.com.pos",
+            "certificate_hash": "aa3b46967dc48c32616fd5155cd9e829c123cfad"
+          }
+        },
+        {
+          "client_id": "999998154064-4ove0c5eu7i0piosa3qt9cjd1henmdcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApKCvFcveQtHCXRoXntWaNXzg2giDWzCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999998154064-4ove0c5eu7i0piosa3qt9cjd1henmdcr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "999998154064-5t4jeh8ks2pdfobm1k31gskuf11pg5fr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "relllo.restroClient"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999998154064:android:bac7fb2a6e9b0e82eab855",
+        "android_client_info": {
+          "package_name": "relllo.relllo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999998154064-gpvr1mlsrpep95cb7prm8o1nrkgkh3es.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "relllo.relllo",
+            "certificate_hash": "c1ae007615ceb1a3b99c9e959268da8e12703874"
+          }
+        },
+        {
+          "client_id": "999998154064-4ove0c5eu7i0piosa3qt9cjd1henmdcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApKCvFcveQtHCXRoXntWaNXzg2giDWzCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999998154064-4ove0c5eu7i0piosa3qt9cjd1henmdcr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "999998154064-5t4jeh8ks2pdfobm1k31gskuf11pg5fr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "relllo.restroClient"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999998154064:android:df279525346bf64ceab855",
+        "android_client_info": {
+          "package_name": "relllo.restro_client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999998154064-4ove0c5eu7i0piosa3qt9cjd1henmdcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApKCvFcveQtHCXRoXntWaNXzg2giDWzCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999998154064-4ove0c5eu7i0piosa3qt9cjd1henmdcr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "999998154064-5t4jeh8ks2pdfobm1k31gskuf11pg5fr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "relllo.restroClient"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999998154064:android:ab373e6f93e6f2fceab855",
+        "android_client_info": {
+          "package_name": "relllo.vendorApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999998154064-4ove0c5eu7i0piosa3qt9cjd1henmdcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApKCvFcveQtHCXRoXntWaNXzg2giDWzCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999998154064-4ove0c5eu7i0piosa3qt9cjd1henmdcr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "999998154064-5t4jeh8ks2pdfobm1k31gskuf11pg5fr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "relllo.restroClient"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
