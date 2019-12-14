@@ -5,24 +5,24 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-// import 'SetupPage.dart';
+import 'package:vendor_driver/LoginPage.dart';
 import 'HomePage.dart';
-import 'SignUp.dart';
+import 'LoginPage.dart';
 
-class LoginPage extends StatefulWidget {
+class SignUp extends StatefulWidget {
   @override
-  _LoginPageState createState() => _LoginPageState();
+  _SignUpState createState() => _SignUpState();
 }
 
-class _LoginPageState extends State<LoginPage> {
+class _SignUpState extends State<SignUp> {
   final _formKey = GlobalKey<FormState>();
   final storeDb = Firestore.instance;
-  bool login_failed = false;
+  bool sign_up_failed = false;
 
   String _email = "";
   String _password = "";
 
-  void logIn() {
+  void signUp() {
     bool validated = validateForm();
     if (validated) {
       createUser();
@@ -40,26 +40,34 @@ class _LoginPageState extends State<LoginPage> {
     showLoading();
     SharedPreferences shared_prefs = await SharedPreferences.getInstance();
 
-    FirebaseAuth.instance
-        .signInWithEmailAndPassword(email: _email, password: _password)
-        .then((user) {
-      Navigator.of(context).pop();
-      shared_prefs.setString("uid", user.uid);
-      jumpToPage(user);
+    // FirebaseAuth.instance
+    //     .signInWithEmailAndPassword(email: _email, password: _password)
+    //     .then((user) {
+    //   Navigator.of(context).pop();
+    //   shared_prefs.setString("uid", user.uid);
+    //   jumpToPage(user);
       
-    }).catchError((onError) {
-      login_failed = true;
-      _formKey.currentState..validate();
-      login_failed = false;
-      Navigator.of(context).pop();
-      // FirebaseAuth.instance
-      //     .createUserWithEmailAndPassword(email: _email, password: _password)
-      //     .then((user) {
-      //   shared_prefs.setString("uid", user.uid);
-      //   saveUser(user.uid);
-      //   jumpToPage(user);
-      // });
-    });
+    // }).catchError((onError) {
+      // sign_up_failed = true;
+      // _formKey.currentState..validate();
+      // sign_up_failed = false;
+      // Navigator.of(context).pop();
+    // });
+
+    FirebaseAuth.instance
+        .createUserWithEmailAndPassword(email: _email, password: _password)
+        .then((user) {
+          Navigator.of(context).pop();
+          shared_prefs.setString("uid", user.uid);
+          saveUser(user.uid);
+          jumpToPage(user);
+        })
+        .catchError((onError){
+            sign_up_failed = true;
+            _formKey.currentState..validate();
+            sign_up_failed = false;
+            Navigator.of(context).pop();
+        });
   }
 
   saveUser(String uid)async{
@@ -80,9 +88,9 @@ class _LoginPageState extends State<LoginPage> {
     });
   }
 
-  jumpToSignUp(){
+  jumpToLogIn(){
     Navigator.push(context, new CupertinoPageRoute(builder: (context) {
-            return new SignUp();
+            return new LoginPage();
     }));
   }
 
@@ -105,7 +113,7 @@ class _LoginPageState extends State<LoginPage> {
                 children: <Widget>[
                   // TITLE
                   new Text(
-                    "Log In",
+                    "Sign Up",
                     style: TextStyle(
                         fontSize: 40,
                         fontWeight: FontWeight.bold,
@@ -126,7 +134,7 @@ class _LoginPageState extends State<LoginPage> {
                           border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(3.3))),
                       validator: (value) {
-                        if (value.isEmpty || login_failed) {
+                        if (value.isEmpty || sign_up_failed) {
                           return "Please enter a valid email";
                         } else {
                           setState(() {
@@ -149,7 +157,7 @@ class _LoginPageState extends State<LoginPage> {
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(3.3))),
                     validator: (value) {
-                      if (value.isEmpty || login_failed) {
+                      if (value.isEmpty || sign_up_failed) {
                         return "Please enter a valid password";
                       } else {
                         setState(() {
@@ -167,19 +175,19 @@ class _LoginPageState extends State<LoginPage> {
                     height: 50.0,
                     child: new RaisedButton(
                       child: Text(
-                        "Log In",
+                        "Sign Up",
                         style: TextStyle(color: Colors.white, fontSize: 17.0),
                       ),
                       color: hexToColor("#ef5350"),
-                      onPressed: logIn,
+                      onPressed: signUp,
                     ),
                   ),
 
                   Container(
                     margin: EdgeInsets.only(top: 15.0),
                     child: InkWell(
-                            onTap: ()=>{jumpToSignUp()},
-                            child:Text("Sign Up", style: TextStyle(fontSize: 17.0, color: Colors.blue),
+                            onTap: ()=>{jumpToLogIn()},
+                            child:Text("Log In", style: TextStyle(fontSize: 17.0, color: Colors.blue),
                      )
                     )
                   )

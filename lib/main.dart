@@ -35,16 +35,7 @@ class YourApp extends StatelessWidget {
         builder: (BuildContext context, AsyncSnapshot<FirebaseUser> snapshot) {
           FirebaseUser user = snapshot.data;
           if (snapshot.hasData) {
-            // (() async {
-            // SharedPreferences prefs = await SharedPreferences.getInstance();
-            // bool setup_complete = await prefs.getBool("setup_complete");
-
-            // if (setup_complete) {
             return HomePage();
-            // } else {
-            // return SetupPage();
-            // }
-            // })();
           }
           return LoginPage();
         });
